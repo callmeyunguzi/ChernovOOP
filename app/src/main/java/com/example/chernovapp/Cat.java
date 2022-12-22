@@ -134,7 +134,7 @@ public abstract class Cat extends Animal {
             Log.i("cat say ", "I will eat you!" + mouse.mouseVoice());
         } else {
             Log.i("cat say ", "I afraid you!");
-
         }
     }
+
 }
