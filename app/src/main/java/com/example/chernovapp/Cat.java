@@ -2,7 +2,7 @@ package com.example.chernovapp;
 
 import android.util.Log;
 
-public class Cat {
+public class Cat extends Animal {
     int age;
     String name;
     String breed;
@@ -11,7 +11,6 @@ public class Cat {
     public Cat() {
         age = 2;
         name = "Vaska";
-
     }
 
     public Cat(int age, String name, String breed, String color) {
